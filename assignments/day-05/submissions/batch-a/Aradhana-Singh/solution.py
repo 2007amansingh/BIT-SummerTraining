@@ -2,7 +2,7 @@
 # Create a file named `student.txt`. Write your name, age, and college name in the file. Then print `File created successfully`.
 # # Expected Output: File created successfully.
 with open("student.txt", "w") as file:
-    file.write("Name : Rahul,\nAge:20,\nCollege: BIT")
+    file.write("Name: Rahul, Age: 20, and College: BIT")
 print("File created successfully.")
 
 
@@ -69,7 +69,7 @@ with open("students.txt", "r") as file:
             found = True
             break
     if found:
-        print("found")
+        print("Found")
     else:
         print("Not Found")
 
